@@ -1,0 +1,230 @@
+[02:44:35] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[02:44:35] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[02:44:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[02:44:35] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2855 for Minecraft 1.12.2 loading
+[02:44:35] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_292, running on Linux:amd64:5.13.0-7620-generic, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[02:44:35] [main/INFO] [FML]: Searching /home/n/Desktop/server/./mods for mods
+[02:44:35] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from CubicChunks-1.12.2-0.0.1184.0-SNAPSHOT-all.jar
+[02:44:35] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CubicWorldGen-1.12.2-0.0.140.0-SNAPSHOT-all.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[02:44:35] [main/WARN] [FML]: The coremod CubicGenCoreMod (io.github.opencubicchunks.cubicchunks.cubicgen.asm.coremod.CubicGenCoreMod) is not signed!
+[02:44:35] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.1 Source=file:/home/n/Desktop/server/./mods/CubicChunks-1.12.2-0.0.1184.0-SNAPSHOT-all.jar Service=LaunchWrapper Env=SERVER
+[02:44:35] [main/WARN] [FML]: The coremod CubicChunksCoreMod (io.github.opencubicchunks.cubicchunks.core.asm.coremod.CubicChunksCoreMod) is not signed!
+[02:44:35] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[02:44:35] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from malisiscore-1.12.2-6.5.1.jar
+[02:44:35] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[02:44:35] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[02:44:35] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[02:44:35] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[02:44:35] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[02:44:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[02:44:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[02:44:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[02:44:36] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[02:44:36] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[02:44:36] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[02:44:36] [main/WARN] [mixin]: Multiple Mixin containers present, init suppressed for 0.8.1
+[02:44:36] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@151335cb
+[02:44:36] [main/WARN] [FML]: The coremod net.malisis.core.asm.MalisisCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[02:44:36] [main/WARN] [FML]: The coremod MalisisCorePlugin (net.malisis.core.asm.MalisisCorePlugin) is not signed!
+[02:44:36] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[02:44:36] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[02:44:36] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[02:44:36] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[02:44:36] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[02:44:36] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[02:44:36] [main/INFO] [CubicChunksMixinConfig]: No Optifine detected
+[02:44:36] [main/INFO] [CubicChunksMixinConfig]: BetterFps is NOT installed. Will not enable FastBeacon mixin.
+[02:44:36] [main/INFO] [CubicChunksMixinConfig]: Loading configuration file /home/n/Desktop/server/./config/cubicchunks_mixin_config.json
+[02:44:36] [main/INFO] [CubicGenMixinConfig]: Loading configuration file /home/n/Desktop/server/./config/cubicworldgen_mixin_config.json
+[02:44:36] [main/WARN] [mixin]: Error loading class: net/minecraft/server/integrated/IntegratedServer (net.minecraftforge.fml.common.asm.ASMTransformerWrapper$TransformerException: Exception in class transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer@68ba310d from coremod FMLCorePlugin)
+[02:44:36] [main/WARN] [mixin]: @Mixin target net.minecraft.server.integrated.IntegratedServer was not found cubicchunks.mixins.core.json:common.IIntegratedServer
+[02:44:36] [main/INFO] [io.github.opencubicchunks.cubicchunks.cubicgen.asm.coremod.MapGenStrongholdCubicConstructorTransform]: Transforming class net/minecraft/world/gen/structure/MapGenStronghold$Start: adding reinitCubicStronghold method as copy of constructor
+[02:44:36] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.io.github.opencubicchunks.cubicchunks.cubicgen.asm.coremod.MapGenStrongholdCubicConstructorTransform' was detected and will no longer process meta class data
+[02:44:37] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[02:44:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[02:44:39] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2855 Initialized
+[02:44:40] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[02:44:40] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[02:44:40] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[02:44:40] [Server thread/INFO] [FML]: Searching /home/n/Desktop/server/./mods for mods
+[02:44:41] [Server thread/INFO] [FML]: Forge Mod Loader has identified 19 mods to load
+[02:44:41] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[02:44:41] [Server thread/WARN] [FML]: Missing English translation for buildcraftbuilders: assets/buildcraftbuilders/lang/en_us.lang
+[02:44:41] [Server thread/WARN] [FML]: Missing English translation for buildcraftcore: assets/buildcraftcore/lang/en_us.lang
+[02:44:41] [Server thread/WARN] [FML]: Missing English translation for buildcraftenergy: assets/buildcraftenergy/lang/en_us.lang
+[02:44:41] [Server thread/WARN] [FML]: Missing English translation for buildcraftfactory: assets/buildcraftfactory/lang/en_us.lang
+[02:44:41] [Server thread/WARN] [FML]: Missing English translation for buildcraftrobotics: assets/buildcraftrobotics/lang/en_us.lang
+[02:44:41] [Server thread/WARN] [FML]: Missing English translation for buildcraftsilicon: assets/buildcraftsilicon/lang/en_us.lang
+[02:44:41] [Server thread/WARN] [FML]: Missing English translation for buildcrafttransport: assets/buildcrafttransport/lang/en_us.lang
+[02:44:41] [Server thread/WARN] [FML]: Missing English translation for ic2: assets/ic2/lang/en_us.lang
+[02:44:41] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, cubicchunkscore, buildcraftcompat, buildcraftbuilders, buildcraftcore, buildcraftenergy, buildcraftfactory, buildcraftlib, buildcraftrobotics, buildcraftsilicon, buildcrafttransport, cubicchunks, cubicgen, customnpcs, ic2, malisiscore] at CLIENT
+[02:44:41] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, cubicchunkscore, buildcraftcompat, buildcraftbuilders, buildcraftcore, buildcraftenergy, buildcraftfactory, buildcraftlib, buildcraftrobotics, buildcraftsilicon, buildcrafttransport, cubicchunks, cubicgen, customnpcs, ic2, malisiscore] at SERVER
+[02:44:42] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[02:44:42] [Server thread/INFO] [FML]: Found 1251 ObjectHolder annotations
+[02:44:42] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[02:44:42] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[02:44:42] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[02:44:42] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftlib] Starting version check at https://mod-buildcraft.com/version/versions.json
+[02:44:42] [Server thread/INFO] [BuildCraft]: 
+[02:44:42] [Server thread/INFO] [BuildCraft]: Starting BuildCraft 7.99.24.8
+[02:44:42] [Server thread/INFO] [BuildCraft]: Copyright (c) the BuildCraft team, 2011-2018
+[02:44:42] [Server thread/INFO] [BuildCraft]: https://www.mod-buildcraft.com
+[02:44:42] [Server thread/INFO] [BuildCraft]: Detailed Build Information:
+[02:44:42] [Server thread/INFO] [BuildCraft]:   Branch HEAD
+[02:44:42] [Server thread/INFO] [BuildCraft]:   Commit 68370005a10488d02a4bb4b8df86bbc62633d216
+[02:44:42] [Server thread/INFO] [BuildCraft]:     Bump version for release relase, fix a java 13+ compile error, tweak changelog, and fix engines chaining one block more than they should have.
+[02:44:42] [Server thread/INFO] [BuildCraft]:     committed by AlexIIL
+[02:44:42] [Server thread/INFO] [BuildCraft]: 
+[02:44:42] [Server thread/INFO] [BuildCraft]: Loaded Modules:
+[02:44:42] [Server thread/INFO] [BuildCraft]:   - lib
+[02:44:42] [Server thread/INFO] [BuildCraft]:   - core
+[02:44:42] [Server thread/INFO] [BuildCraft]:   - builders
+[02:44:42] [Server thread/INFO] [BuildCraft]:   - energy
+[02:44:42] [Server thread/INFO] [BuildCraft]:   - factory
+[02:44:42] [Server thread/INFO] [BuildCraft]:   - robotics
+[02:44:42] [Server thread/INFO] [BuildCraft]:   - silicon
+[02:44:42] [Server thread/INFO] [BuildCraft]:   - transport
+[02:44:42] [Server thread/INFO] [BuildCraft]:   - compat
+[02:44:42] [Server thread/INFO] [BuildCraft]: Missing Modules:
+[02:44:42] [Server thread/INFO] [BuildCraft]: 
+[02:44:42] [Server thread/INFO] [BuildCraft]: [debugger] Not a dev environment!
+[02:44:42] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[02:44:43] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftlib] Found status: UP_TO_DATE Target: null
+[02:44:43] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[02:44:44] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[02:44:44] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcompat] Starting version check at https://mod-buildcraft.com/version/versions-compat.json
+[02:44:44] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcompat] Found status: AHEAD Target: null
+[02:44:44] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcore] Starting version check at https://mod-buildcraft.com/version/versions.json
+[02:44:45] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcore] Found status: UP_TO_DATE Target: null
+[02:44:47] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 352 out of 352 recipes for shaped recipes
+[02:44:47] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 79 out of 79 recipes for shapeless recipes
+[02:44:47] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 41 out of 41 recipes for solid uu recipes
+[02:44:47] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 27 out of 27 recipes for furnace recipes
+[02:44:47] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 5 out of 5 recipes for blast furnace recipes
+[02:44:47] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for block cutter recipes
+[02:44:47] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 51 out of 51 recipes for compressor recipes
+[02:44:47] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 12 out of 12 recipes for extractor recipes
+[02:44:47] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 74 out of 74 recipes for macerator recipes
+[02:44:47] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 5 out of 5 recipes for metal former cutting recipes
+[02:44:47] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 10 out of 10 recipes for metal former extruding recipes
+[02:44:47] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for metal former rolling recipes
+[02:44:47] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 8 out of 8 recipes for ore washing recipes
+[02:44:47] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 26 out of 26 recipes for thermal centrifuge recipes
+[02:44:47] [Server thread/INFO] [BuildCraft]: 
+[02:44:47] [Server thread/INFO] [BuildCraft]: Starting BuildCraftCompat 7.99.24.8
+[02:44:47] [Server thread/INFO] [BuildCraft]: Copyright (c) the BuildCraft team, 2011-2017
+[02:44:47] [Server thread/INFO] [BuildCraft]: https://www.mod-buildcraft.com
+[02:44:47] [Server thread/INFO] [BuildCraft]: Detailed Build Information:
+[02:44:47] [Server thread/INFO] [BuildCraft]:   Branch 8.0.x-1.12.2
+[02:44:47] [Server thread/INFO] [BuildCraft]:   Commit 16adfdb3d6a3362ba3659be7d5e9b7d12af7eee5
+[02:44:47] [Server thread/INFO] [BuildCraft]:     Bump for release.
+[02:44:47] [Server thread/INFO] [BuildCraft]:     committed by AlexIIL
+[02:44:47] [Server thread/INFO] [BuildCraft]: 
+[02:44:47] [Server thread/INFO] [BuildCraft]: [compat] Module list:
+[02:44:47] [Server thread/INFO] [BuildCraft]: [compat]   x forestry (It cannot load)
+[02:44:47] [Server thread/INFO] [BuildCraft]: [compat]   x theoneprobe (It cannot load)
+[02:44:47] [Server thread/INFO] [BuildCraft]: [compat]   x crafttweaker (It cannot load)
+[02:44:47] [Server thread/INFO] [BuildCraft]: [compat]   + ic2
+[02:44:47] [Server thread/INFO] [malisiscore]: Registering CloseInventoryMessage for Packet with discriminator 1 in channel malisiscore
+[02:44:47] [Server thread/INFO] [malisiscore]: Registering InventoryActionMessage for Packet with discriminator 2 in channel malisiscore
+[02:44:47] [Server thread/INFO] [malisiscore]: Registering OpenInventoryMessage for Packet with discriminator 3 in channel malisiscore
+[02:44:47] [Server thread/INFO] [malisiscore]: Registering UpdateInventorySlotsMessage for Packet with discriminator 4 in channel malisiscore
+[02:44:47] [Server thread/INFO] [malisiscore]: Registering DirectMessage for Packet with discriminator 5 in channel malisiscore
+[02:44:47] [Server thread/INFO] [malisiscore]: Registering BlockDataMessage for Packet with discriminator 6 in channel malisiscore
+[02:44:48] [Server thread/INFO] [malisiscore]: Registering ChunkBlockMessage for Packet with discriminator 7 in channel malisiscore
+[02:44:48] [Server thread/INFO] [malisiscore]: Registering NeighborChangedMessage for Packet with discriminator 8 in channel malisiscore
+[02:44:48] [Server thread/INFO] [malisiscore]: Registering SyncerMessage for Packet with discriminator 9 in channel malisiscore
+[02:44:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileredstoneblock`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[02:44:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileblockanvil`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[02:44:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilemailbox`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[02:44:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilewaypoint`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[02:44:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpcscripted`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[02:44:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpcscripteddoor`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[02:44:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpcbuilder`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[02:44:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpccopy`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[02:44:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpcborder`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[02:44:48] [Server thread/INFO] [FML]: Applying holder lookups
+[02:44:48] [Server thread/INFO] [FML]: Holder lookups applied
+[02:44:48] [Server thread/INFO] [FML]: Applying holder lookups
+[02:44:48] [Server thread/INFO] [FML]: Holder lookups applied
+[02:44:48] [Server thread/INFO] [FML]: Applying holder lookups
+[02:44:48] [Server thread/INFO] [FML]: Holder lookups applied
+[02:44:48] [Server thread/INFO] [FML]: Applying holder lookups
+[02:44:48] [Server thread/INFO] [FML]: Holder lookups applied
+[02:44:48] [Server thread/INFO] [FML]: Injecting itemstacks
+[02:44:48] [Server thread/INFO] [FML]: Itemstack injection complete
+[02:44:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[02:44:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[02:44:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[02:44:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[02:44:48] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[02:44:48] [Server thread/INFO] [FML]: Applying holder lookups
+[02:44:48] [Server thread/INFO] [FML]: Holder lookups applied
+[02:44:48] [Server thread/INFO] [BuildCraft]: [energy.oilgen] Registered the ocean oil biome.
+[02:44:48] [Server thread/INFO] [BuildCraft]: [energy.oilgen] Registered the desert oil biome.
+[02:44:48] [Server thread/INFO] [BuildCraft]: [energy.oilgen] Registered the oil spout generator
+[02:44:48] [Server thread/INFO] [BuildCraft]: [energy.oilgen] Registered the oil biome initiializer
+[02:44:50] [Server thread/INFO] [noppes.npcs.CustomNpcs]: CustomNPC Permissions available:
+[02:44:50] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.edit.blocks
+[02:44:50] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.edit.villager
+[02:44:50] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.bank
+[02:44:50] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.dialog
+[02:44:50] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.faction
+[02:44:50] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.linked
+[02:44:50] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.naturalspawn
+[02:44:50] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.playerdata
+[02:44:50] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.quest
+[02:44:50] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.recipe
+[02:44:50] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.transport
+[02:44:50] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.advanced
+[02:44:50] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.ai
+[02:44:50] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.clone
+[02:44:50] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.create
+[02:44:50] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.delete
+[02:44:50] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.display
+[02:44:50] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.freeze
+[02:44:50] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.gui
+[02:44:50] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.inventory
+[02:44:50] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.reset
+[02:44:50] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.stats
+[02:44:50] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.scenes
+[02:44:50] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.soulstone.all
+[02:44:50] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.spawner.create
+[02:44:50] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.spawner.mob
+[02:44:50] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.tool.mounter
+[02:44:50] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.tool.nbtbook
+[02:44:50] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.tool.pather
+[02:44:50] [Server thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.tool.scripter
+[02:44:50] [Server thread/INFO] [STDOUT]: [noppes.npcs.CustomNpcs:load:258]: Markov dictionaries loaded!
+[02:44:50] [Server thread/INFO] [FML]: Injecting itemstacks
+[02:44:50] [Server thread/INFO] [FML]: Itemstack injection complete
+[02:44:50] [Server thread/INFO] [ic2.Uu]: Loading predefined UU world scan values, run /ic2 uu-world-scan <small|medium|large> to calibrate them for your world.
+[02:44:50] [Server thread/INFO] [ic2.General]: ic2 version 2.8.170-ex112 loaded.
+[02:44:50] [Server thread/WARN] [cubicgen]: Biome minecraft:hell not registered as cubic chunks biome, will use default unregistered biome instead
+[02:44:50] [Server thread/WARN] [cubicgen]: Biome minecraft:sky not registered as cubic chunks biome, will use default unregistered biome instead
+[02:44:50] [Server thread/WARN] [cubicgen]: Biome buildcraftenergy:oil_ocean not registered as cubic chunks biome, will use default unregistered biome instead
+[02:44:50] [Server thread/WARN] [cubicgen]: Biome buildcraftenergy:oil_desert not registered as cubic chunks biome, will use default unregistered biome instead
+[02:44:50] [Server thread/WARN] [cubicgen]: Biome minecraft:void not registered as cubic chunks biome, will use default unregistered biome instead
+[02:44:50] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 19 mods
+[02:44:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[02:44:50] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[02:44:50] [Server thread/INFO] [FML]: Applying holder lookups
+[02:44:50] [Server thread/INFO] [FML]: Holder lookups applied
+[02:44:51] [Server thread/INFO] [io.github.opencubicchunks.cubicchunks.cubicgen.asm.coremod.MapGenStrongholdCubicConstructorTransform]: Transforming class net/minecraft/world/gen/structure/MapGenStronghold$Start: adding reinitCubicStronghold method as copy of constructor
+[02:44:51] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@9c8075a)
+[02:44:51] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 537 advancements
+[02:44:51] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@9c8075a)
+[02:44:51] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@9c8075a)
+[02:44:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[02:44:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (1.508s)! For help, type "help" or "?"
+[02:44:52] [Server thread/INFO] [FML]: Unloading dimension -1
+[02:44:52] [Server thread/INFO] [FML]: Unloading dimension 1
+[02:44:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
+[02:44:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[02:44:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[02:44:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[02:44:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[02:44:56] [Server thread/INFO] [FML]: Unloading dimension 0
+[02:44:56] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[02:44:56] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[02:44:56] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
